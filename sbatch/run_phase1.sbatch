@@ -9,7 +9,7 @@
 #SBATCH --output=/scratch/%u/cla_anchors/gsm8k/phase1_%j.out
 #SBATCH --error=/scratch/%u/cla_anchors/gsm8k/phase1_%j.err
 
-set -euo pipefail
+set -eu
 
 source /home/hh89313/miniconda/etc/profile.d/conda.sh
 conda activate cla
@@ -20,7 +20,7 @@ mkdir -p /scratch/$USER/cla_anchors/gsm8k/train
 mkdir -p /scratch/$USER/cla_anchors/gsm8k/test
 
 echo "=== Phase 1: GSM8K train (1000 samples) ==="
-nvidia-smi | head -15
+nvidia-smi
 time python scripts/generate_anchors.py \
   --dataset gsm8k \
   --split train \

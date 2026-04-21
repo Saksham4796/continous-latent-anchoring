@@ -69,6 +69,8 @@ def main() -> None:
     if args.checkpoint:
         checkpoint = torch.load(args.checkpoint, map_location=device)
         model.ponder_projection.load_state_dict(checkpoint["trainable_state_dict"]["ponder_projection"])
+        backbone_dtype = next(model.adapter.model.parameters()).dtype
+        model.ponder_projection.to(dtype=backbone_dtype)
         if "ponder_steps" in checkpoint:
             model.ponder_steps = int(checkpoint["ponder_steps"])
 

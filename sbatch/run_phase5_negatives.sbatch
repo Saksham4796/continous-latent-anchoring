@@ -9,7 +9,7 @@
 #SBATCH --output=/scratch/%u/cla_runs/phase5_negatives_%j.out
 #SBATCH --error=/scratch/%u/cla_runs/phase5_negatives_%j.err
 
-set -euo pipefail
+set -eu
 
 source /home/hh89313/miniconda/etc/profile.d/conda.sh
 conda activate cla
@@ -25,7 +25,7 @@ export PYTHON_BIN="python"
 mkdir -p "$RUN_ROOT"
 
 echo "=== Phase 5: negatives ablation (hard_semantic vs random_noise) ==="
-nvidia-smi | head -15
+nvidia-smi
 time bash scripts/run_ablations.sh negatives
 
 echo "=== Phase 5 negatives ablation complete ==="

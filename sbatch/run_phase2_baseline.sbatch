@@ -9,7 +9,7 @@
 #SBATCH --output=/scratch/%u/cla_runs/phase2_baseline_%j.out
 #SBATCH --error=/scratch/%u/cla_runs/phase2_baseline_%j.err
 
-set -euo pipefail
+set -eu
 
 source /home/hh89313/miniconda/etc/profile.d/conda.sh
 conda activate cla
@@ -20,7 +20,7 @@ mkdir -p /scratch/$USER/cla_runs
 mkdir -p /scratch/$USER/cla_checkpoints/qwen15b_cocot_baseline
 
 echo "=== Phase 3: Continuous-CoT baseline (lambda=0.0, k=5) ==="
-nvidia-smi | head -15
+nvidia-smi
 time python scripts/train.py \
   --train-anchors /scratch/$USER/cla_anchors/gsm8k/train \
   --eval-anchors /scratch/$USER/cla_anchors/gsm8k/test \

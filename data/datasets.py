@@ -191,9 +191,9 @@ def resolve_anchor_shards(path_like: str) -> List[Path]:
     if not path.exists():
         raise FileNotFoundError(f"Anchor path does not exist: {path}")
 
-    shards = sorted(item for item in path.glob("*.pt") if item.is_file())
+    shards = sorted(item for item in path.glob("*_anchors_*.pt") if item.is_file())
     if not shards:
-        raise FileNotFoundError(f"No .pt anchor shards found under {path}")
+        raise FileNotFoundError(f"No *_anchors_*.pt shards found under {path}")
     return shards
 
 

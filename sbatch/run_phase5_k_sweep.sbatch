@@ -1,6 +1,6 @@
 #!/bin/bash
 #SBATCH --job-name=cla_phase5_k_sweep
-#SBATCH --partition=gpu_30d_p
+#SBATCH --partition=gpu_p
 #SBATCH --ntasks=1
 #SBATCH --gres=gpu:A100:1
 #SBATCH --cpus-per-task=8
@@ -13,7 +13,7 @@
 # Total wall is large (~40-80 GPU-hours). Only submit after Phase 4 results confirm the pipeline
 # gives expected trends. Uses gpu_30d_p with 4-day walltime.
 
-set -euo pipefail
+set -eu
 
 source /home/hh89313/miniconda/etc/profile.d/conda.sh
 conda activate cla
@@ -29,7 +29,7 @@ export PYTHON_BIN="python"
 mkdir -p "$RUN_ROOT"
 
 echo "=== Phase 5: k_sweep ablation (10 runs) ==="
-nvidia-smi | head -15
+nvidia-smi
 time bash scripts/run_ablations.sh k_sweep
 
 echo "=== Phase 5 k_sweep complete ==="

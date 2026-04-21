@@ -44,7 +44,12 @@ class ContinuousCoTModel(nn.Module):
         hidden_size = self.adapter.hidden_size
         self.ponder_projection = nn.Linear(hidden_size, hidden_size, bias=False)
         self.projection_dropout = nn.Dropout(projection_dropout)
-        nn.init.eye_(self.ponder_projection.weight)
+        # Near-zero init keeps step 1 close to h(0) when use_step_residual=True
+        # (identity init doubled the hidden state into the next backbone call,
+        # which saturates bfloat16 at larger ponder_steps).
+        nn.init.normal_(self.ponder_projection.weight, mean=0.0, std=0.02)
+        backbone_dtype = next(self.adapter.model.parameters()).dtype
+        self.ponder_projection.to(dtype=backbone_dtype)
 
     @property
     def device(self) -> torch.device:
