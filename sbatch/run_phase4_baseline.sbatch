@@ -1,6 +1,7 @@
 #!/bin/bash
 #SBATCH --job-name=cla_phase4_baseline
 #SBATCH --partition=gpu_p
+#SBATCH --ntasks=1
 #SBATCH --gres=gpu:A100:1
 #SBATCH --cpus-per-task=4
 #SBATCH --mem=40gb

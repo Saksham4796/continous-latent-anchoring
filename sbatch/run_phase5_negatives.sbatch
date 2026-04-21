@@ -1,6 +1,7 @@
 #!/bin/bash
 #SBATCH --job-name=cla_phase5_negatives
 #SBATCH --partition=gpu_p
+#SBATCH --ntasks=1
 #SBATCH --gres=gpu:A100:1
 #SBATCH --cpus-per-task=8
 #SBATCH --mem=80gb
