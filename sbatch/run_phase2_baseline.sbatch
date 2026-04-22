@@ -28,6 +28,7 @@ time python scripts/train.py \
   --ponder-steps 5 \
   --batch-size 2 \
   --grad-accum-steps 8 \
+  --epochs 5 \
   --learning-rate 5e-4 \
   --lambda-cla 0.0 \
   --output-dir /scratch/$USER/cla_checkpoints/qwen15b_cocot_baseline \

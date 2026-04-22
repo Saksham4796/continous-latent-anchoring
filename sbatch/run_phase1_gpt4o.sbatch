@@ -5,7 +5,7 @@
 #SBATCH --gres=gpu:L4:1
 #SBATCH --cpus-per-task=4
 #SBATCH --mem=24gb
-#SBATCH --time=04:00:00
+#SBATCH --time=08:00:00
 #SBATCH --output=/scratch/%u/cla_anchors/gsm8k_gpt4o/phase1_%j.out
 #SBATCH --error=/scratch/%u/cla_anchors/gsm8k_gpt4o/phase1_%j.err
 
@@ -19,7 +19,7 @@ set -a; source .env; set +a
 mkdir -p /scratch/$USER/cla_anchors/gsm8k_gpt4o/train
 mkdir -p /scratch/$USER/cla_anchors/gsm8k_gpt4o/test
 
-echo "=== Phase 1 (GPT-4o teacher): GSM8K train (1000 samples) ==="
+echo "=== Phase 1 (GPT-4o teacher): GSM8K train (3000 samples) ==="
 nvidia-smi
 time python scripts/generate_anchors.py \
   --dataset gsm8k \
@@ -28,12 +28,12 @@ time python scripts/generate_anchors.py \
   --teacher-model gpt-4o \
   --anchor-encoder-model Qwen/Qwen2.5-1.5B-Instruct \
   --output-dir /scratch/$USER/cla_anchors/gsm8k_gpt4o/train \
-  --max-samples 1000 \
+  --max-samples 3000 \
   --negative-strategy hard_semantic \
   --env-file .env \
   --log-file /scratch/$USER/cla_anchors/gsm8k_gpt4o/train/phase1_train.log
 
-echo "=== Phase 1 (GPT-4o teacher): GSM8K test (250 samples) ==="
+echo "=== Phase 1 (GPT-4o teacher): GSM8K test (500 samples) ==="
 time python scripts/generate_anchors.py \
   --dataset gsm8k \
   --split test \
@@ -41,7 +41,7 @@ time python scripts/generate_anchors.py \
   --teacher-model gpt-4o \
   --anchor-encoder-model Qwen/Qwen2.5-1.5B-Instruct \
   --output-dir /scratch/$USER/cla_anchors/gsm8k_gpt4o/test \
-  --max-samples 250 \
+  --max-samples 500 \
   --negative-strategy hard_semantic \
   --env-file .env \
   --log-file /scratch/$USER/cla_anchors/gsm8k_gpt4o/test/phase1_test.log

@@ -5,7 +5,7 @@
 #SBATCH --gres=gpu:A100:1
 #SBATCH --cpus-per-task=8
 #SBATCH --mem=80gb
-#SBATCH --time=06:00:00
+#SBATCH --time=10:00:00
 #SBATCH --output=/scratch/%u/cla_anchors/gsm8k/phase1_%j.out
 #SBATCH --error=/scratch/%u/cla_anchors/gsm8k/phase1_%j.err
 
@@ -19,7 +19,7 @@ set -a; source .env; set +a
 mkdir -p /scratch/$USER/cla_anchors/gsm8k/train
 mkdir -p /scratch/$USER/cla_anchors/gsm8k/test
 
-echo "=== Phase 1: GSM8K train (1000 samples) ==="
+echo "=== Phase 1: GSM8K train (3000 samples) ==="
 nvidia-smi
 time python scripts/generate_anchors.py \
   --dataset gsm8k \
@@ -27,19 +27,19 @@ time python scripts/generate_anchors.py \
   --teacher-model Qwen/Qwen2.5-7B-Instruct \
   --anchor-encoder-model Qwen/Qwen2.5-1.5B-Instruct \
   --output-dir /scratch/$USER/cla_anchors/gsm8k/train \
-  --max-samples 1000 \
+  --max-samples 3000 \
   --negative-strategy hard_semantic \
   --env-file .env \
   --log-file /scratch/$USER/cla_anchors/gsm8k/train/phase1_train.log
 
-echo "=== Phase 1: GSM8K test (250 samples) ==="
+echo "=== Phase 1: GSM8K test (500 samples) ==="
 time python scripts/generate_anchors.py \
   --dataset gsm8k \
   --split test \
   --teacher-model Qwen/Qwen2.5-7B-Instruct \
   --anchor-encoder-model Qwen/Qwen2.5-1.5B-Instruct \
   --output-dir /scratch/$USER/cla_anchors/gsm8k/test \
-  --max-samples 250 \
+  --max-samples 500 \
   --negative-strategy hard_semantic \
   --env-file .env \
   --log-file /scratch/$USER/cla_anchors/gsm8k/test/phase1_test.log
