@@ -1,0 +1,3 @@
+2026-04-21 23:05:35 | INFO | cla | Loaded environment variables from /home/hh89313/continous-latent-anchoring/.env
+2026-04-21 23:17:03 | INFO | cla | Saved 1 anchor shard(s) under /scratch/hh89313/cla_anchors/gsm8k_gpt4o/test
+2026-04-21 23:17:03 | INFO | cla | anchor_shard=/scratch/hh89313/cla_anchors/gsm8k_gpt4o/test/gsm8k_test_anchors_0000.pt

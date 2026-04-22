@@ -1,0 +1,10 @@
+2026-04-21 23:17:09 | INFO | cla | Loaded environment variables from /home/hh89313/continous-latent-anchoring/.env
+2026-04-21 23:17:15 | INFO | cla | step=1 | train/total_loss=16.8053, train/distill_loss=13.4088, train/cla_loss=3.3965, train/lr=0.0002
+2026-04-21 23:17:40 | INFO | cla | step=10 | train/total_loss=11.1057, train/distill_loss=7.6665, train/cla_loss=3.4392, train/lr=0.0004
+2026-04-21 23:18:07 | INFO | cla | step=20 | train/total_loss=8.7984, train/distill_loss=5.4085, train/cla_loss=3.3899, train/lr=0.0004
+2026-04-21 23:18:35 | INFO | cla | step=30 | train/total_loss=7.4188, train/distill_loss=4.0619, train/cla_loss=3.3570, train/lr=0.0003
+2026-04-21 23:19:02 | INFO | cla | step=40 | train/total_loss=6.9053, train/distill_loss=3.5347, train/cla_loss=3.3706, train/lr=0.0002
+2026-04-21 23:19:29 | INFO | cla | step=50 | train/total_loss=6.7438, train/distill_loss=3.5527, train/cla_loss=3.1911, train/lr=0.0001
+2026-04-21 23:19:57 | INFO | cla | step=60 | train/total_loss=7.0775, train/distill_loss=3.7541, train/cla_loss=3.3234, train/lr=0.0000
+2026-04-21 23:20:21 | INFO | cla | step=63 | eval/total_loss=6.6843, eval/distill_loss=3.3779, eval/cla_loss=3.3065
+2026-04-21 23:20:21 | INFO | cla | Training complete. Final metrics: {'train/total_loss': 6.361426830291748, 'train/distill_loss': 3.050342321395874, 'train/cla_loss': 3.311084508895874, 'train/lr': 0.0, 'eval/total_loss': 6.6843484649658205, 'eval/distill_loss': 3.37786927986145, 'eval/cla_loss': 3.306479179382324}
