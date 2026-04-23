@@ -1,0 +1,36 @@
+2026-04-22 19:37:31 | INFO | cla | Loaded environment variables from /home/hh89313/continous-latent-anchoring/.env
+2026-04-22 22:19:13 | INFO | cla | Evaluation results:
+{
+  "accuracy/exact_match": 0.0,
+  "drift/latent_norm": [
+    158.26466369628906,
+    141.88278198242188,
+    138.28915405273438,
+    137.1112518310547,
+    153.78564453125
+  ],
+  "drift/dispersion": [
+    0.14618031680583954,
+    0.1479702740907669,
+    0.13395239412784576,
+    0.11044948548078537,
+    0.20098932087421417
+  ],
+  "drift/teacher_alignment": [
+    0.6603530645370483,
+    0.38496509194374084,
+    0.18024353682994843,
+    0.10143246501684189,
+    0.22064366936683655
+  ],
+  "drift/answer_instability": [
+    1.0,
+    1.0,
+    1.0,
+    1.0
+  ],
+  "hardware/latency_ms": 134.52728271484375,
+  "hardware/peak_memory_mb": 3917.46923828125,
+  "hardware/average_power_w": 206.99607407407407,
+  "hardware/energy_joules": 27.8466193778257
+}

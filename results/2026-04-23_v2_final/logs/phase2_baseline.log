@@ -1,0 +1,111 @@
+2026-04-22 18:46:02 | INFO | cla | Loaded environment variables from /home/hh89313/continous-latent-anchoring/.env
+2026-04-22 18:47:17 | INFO | cla | step=1 | train/total_loss=13.2579, train/distill_loss=13.2579, train/cla_loss=3.4015, train/lr=0.0000
+2026-04-22 18:47:41 | INFO | cla | step=10 | train/total_loss=9.9961, train/distill_loss=9.9961, train/cla_loss=3.3748, train/lr=0.0001
+2026-04-22 18:48:08 | INFO | cla | step=20 | train/total_loss=5.9747, train/distill_loss=5.9747, train/cla_loss=3.4511, train/lr=0.0002
+2026-04-22 18:48:35 | INFO | cla | step=30 | train/total_loss=5.2009, train/distill_loss=5.2009, train/cla_loss=3.3885, train/lr=0.0003
+2026-04-22 18:49:02 | INFO | cla | step=40 | train/total_loss=4.8215, train/distill_loss=4.8215, train/cla_loss=3.4152, train/lr=0.0004
+2026-04-22 18:49:28 | INFO | cla | step=50 | train/total_loss=4.6604, train/distill_loss=4.6604, train/cla_loss=3.4606, train/lr=0.0004
+2026-04-22 18:49:55 | INFO | cla | step=60 | train/total_loss=3.9041, train/distill_loss=3.9041, train/cla_loss=3.4391, train/lr=0.0005
+2026-04-22 18:50:22 | INFO | cla | step=70 | train/total_loss=3.3304, train/distill_loss=3.3304, train/cla_loss=3.4452, train/lr=0.0005
+2026-04-22 18:50:49 | INFO | cla | step=80 | train/total_loss=2.4996, train/distill_loss=2.4996, train/cla_loss=3.3874, train/lr=0.0005
+2026-04-22 18:51:15 | INFO | cla | step=90 | train/total_loss=3.6529, train/distill_loss=3.6529, train/cla_loss=3.3508, train/lr=0.0005
+2026-04-22 18:51:42 | INFO | cla | step=100 | train/total_loss=2.2359, train/distill_loss=2.2359, train/cla_loss=3.4386, train/lr=0.0005
+2026-04-22 18:52:18 | INFO | cla | step=100 | eval/total_loss=2.4910, eval/distill_loss=2.4910, eval/cla_loss=3.4206
+2026-04-22 18:52:45 | INFO | cla | step=110 | train/total_loss=2.3836, train/distill_loss=2.3836, train/cla_loss=3.4260, train/lr=0.0005
+2026-04-22 18:53:12 | INFO | cla | step=120 | train/total_loss=1.6662, train/distill_loss=1.6662, train/cla_loss=3.4319, train/lr=0.0005
+2026-04-22 18:53:39 | INFO | cla | step=130 | train/total_loss=2.5322, train/distill_loss=2.5322, train/cla_loss=3.4234, train/lr=0.0005
+2026-04-22 18:54:06 | INFO | cla | step=140 | train/total_loss=2.3007, train/distill_loss=2.3007, train/cla_loss=3.4296, train/lr=0.0005
+2026-04-22 18:54:33 | INFO | cla | step=150 | train/total_loss=2.1456, train/distill_loss=2.1456, train/cla_loss=3.4113, train/lr=0.0004
+2026-04-22 18:55:00 | INFO | cla | step=160 | train/total_loss=1.9967, train/distill_loss=1.9967, train/cla_loss=3.4238, train/lr=0.0004
+2026-04-22 18:55:27 | INFO | cla | step=170 | train/total_loss=1.7492, train/distill_loss=1.7492, train/cla_loss=3.4108, train/lr=0.0004
+2026-04-22 18:55:54 | INFO | cla | step=180 | train/total_loss=2.7847, train/distill_loss=2.7847, train/cla_loss=3.4450, train/lr=0.0004
+2026-04-22 18:56:49 | INFO | cla | step=188 | eval/total_loss=1.4399, eval/distill_loss=1.4399, eval/cla_loss=3.4149
+2026-04-22 18:56:55 | INFO | cla | step=190 | train/total_loss=0.8292, train/distill_loss=0.8292, train/cla_loss=3.4440, train/lr=0.0004
+2026-04-22 18:57:22 | INFO | cla | step=200 | train/total_loss=1.2098, train/distill_loss=1.2098, train/cla_loss=3.3891, train/lr=0.0004
+2026-04-22 18:57:57 | INFO | cla | step=200 | eval/total_loss=1.4222, eval/distill_loss=1.4222, eval/cla_loss=3.4061
+2026-04-22 18:58:24 | INFO | cla | step=210 | train/total_loss=1.1791, train/distill_loss=1.1791, train/cla_loss=3.4017, train/lr=0.0004
+2026-04-22 18:58:51 | INFO | cla | step=220 | train/total_loss=0.9654, train/distill_loss=0.9654, train/cla_loss=3.4160, train/lr=0.0004
+2026-04-22 18:59:18 | INFO | cla | step=230 | train/total_loss=1.4199, train/distill_loss=1.4199, train/cla_loss=3.4594, train/lr=0.0004
+2026-04-22 18:59:45 | INFO | cla | step=240 | train/total_loss=1.2483, train/distill_loss=1.2483, train/cla_loss=3.4065, train/lr=0.0004
+2026-04-22 19:00:12 | INFO | cla | step=250 | train/total_loss=1.0412, train/distill_loss=1.0412, train/cla_loss=3.4059, train/lr=0.0004
+2026-04-22 19:00:39 | INFO | cla | step=260 | train/total_loss=1.1007, train/distill_loss=1.1007, train/cla_loss=3.3514, train/lr=0.0004
+2026-04-22 19:01:06 | INFO | cla | step=270 | train/total_loss=1.2656, train/distill_loss=1.2656, train/cla_loss=3.4372, train/lr=0.0004
+2026-04-22 19:01:32 | INFO | cla | step=280 | train/total_loss=1.1084, train/distill_loss=1.1084, train/cla_loss=3.4068, train/lr=0.0004
+2026-04-22 19:01:59 | INFO | cla | step=290 | train/total_loss=1.4615, train/distill_loss=1.4615, train/cla_loss=3.4223, train/lr=0.0004
+2026-04-22 19:02:26 | INFO | cla | step=300 | train/total_loss=0.6006, train/distill_loss=0.6006, train/cla_loss=3.3533, train/lr=0.0004
+2026-04-22 19:03:02 | INFO | cla | step=300 | eval/total_loss=0.9760, eval/distill_loss=0.9760, eval/cla_loss=3.4068
+2026-04-22 19:03:28 | INFO | cla | step=310 | train/total_loss=1.2656, train/distill_loss=1.2656, train/cla_loss=3.4341, train/lr=0.0004
+2026-04-22 19:03:55 | INFO | cla | step=320 | train/total_loss=1.0779, train/distill_loss=1.0779, train/cla_loss=3.4318, train/lr=0.0004
+2026-04-22 19:04:22 | INFO | cla | step=330 | train/total_loss=1.0488, train/distill_loss=1.0488, train/cla_loss=3.4420, train/lr=0.0003
+2026-04-22 19:04:49 | INFO | cla | step=340 | train/total_loss=0.9603, train/distill_loss=0.9603, train/cla_loss=3.3118, train/lr=0.0003
+2026-04-22 19:05:16 | INFO | cla | step=350 | train/total_loss=0.8617, train/distill_loss=0.8617, train/cla_loss=3.3978, train/lr=0.0003
+2026-04-22 19:05:43 | INFO | cla | step=360 | train/total_loss=0.4914, train/distill_loss=0.4914, train/cla_loss=3.3453, train/lr=0.0003
+2026-04-22 19:06:10 | INFO | cla | step=370 | train/total_loss=0.8070, train/distill_loss=0.8070, train/cla_loss=3.3909, train/lr=0.0003
+2026-04-22 19:07:00 | INFO | cla | step=376 | eval/total_loss=0.8166, eval/distill_loss=0.8166, eval/cla_loss=3.4058
+2026-04-22 19:07:11 | INFO | cla | step=380 | train/total_loss=0.3449, train/distill_loss=0.3449, train/cla_loss=3.3493, train/lr=0.0003
+2026-04-22 19:07:38 | INFO | cla | step=390 | train/total_loss=0.6607, train/distill_loss=0.6607, train/cla_loss=3.3926, train/lr=0.0003
+2026-04-22 19:08:05 | INFO | cla | step=400 | train/total_loss=0.9817, train/distill_loss=0.9817, train/cla_loss=3.4411, train/lr=0.0003
+2026-04-22 19:08:40 | INFO | cla | step=400 | eval/total_loss=0.7878, eval/distill_loss=0.7878, eval/cla_loss=3.3930
+2026-04-22 19:09:07 | INFO | cla | step=410 | train/total_loss=0.9568, train/distill_loss=0.9568, train/cla_loss=3.3647, train/lr=0.0003
+2026-04-22 19:09:34 | INFO | cla | step=420 | train/total_loss=0.7653, train/distill_loss=0.7653, train/cla_loss=3.3778, train/lr=0.0003
+2026-04-22 19:10:01 | INFO | cla | step=430 | train/total_loss=0.9223, train/distill_loss=0.9223, train/cla_loss=3.3410, train/lr=0.0003
+2026-04-22 19:10:28 | INFO | cla | step=440 | train/total_loss=0.6186, train/distill_loss=0.6186, train/cla_loss=3.3221, train/lr=0.0003
+2026-04-22 19:10:54 | INFO | cla | step=450 | train/total_loss=0.9625, train/distill_loss=0.9625, train/cla_loss=3.2993, train/lr=0.0003
+2026-04-22 19:11:21 | INFO | cla | step=460 | train/total_loss=0.3512, train/distill_loss=0.3512, train/cla_loss=3.3953, train/lr=0.0003
+2026-04-22 19:11:48 | INFO | cla | step=470 | train/total_loss=0.7559, train/distill_loss=0.7559, train/cla_loss=3.4100, train/lr=0.0003
+2026-04-22 19:12:15 | INFO | cla | step=480 | train/total_loss=0.5739, train/distill_loss=0.5739, train/cla_loss=3.4313, train/lr=0.0003
+2026-04-22 19:12:42 | INFO | cla | step=490 | train/total_loss=0.5893, train/distill_loss=0.5893, train/cla_loss=3.4036, train/lr=0.0003
+2026-04-22 19:13:08 | INFO | cla | step=500 | train/total_loss=0.8815, train/distill_loss=0.8815, train/cla_loss=3.3806, train/lr=0.0002
+2026-04-22 19:13:44 | INFO | cla | step=500 | eval/total_loss=0.6688, eval/distill_loss=0.6688, eval/cla_loss=3.3985
+2026-04-22 19:14:11 | INFO | cla | step=510 | train/total_loss=0.3892, train/distill_loss=0.3892, train/cla_loss=3.3124, train/lr=0.0002
+2026-04-22 19:14:37 | INFO | cla | step=520 | train/total_loss=0.2174, train/distill_loss=0.2174, train/cla_loss=3.3501, train/lr=0.0002
+2026-04-22 19:15:04 | INFO | cla | step=530 | train/total_loss=0.5969, train/distill_loss=0.5969, train/cla_loss=3.3821, train/lr=0.0002
+2026-04-22 19:15:31 | INFO | cla | step=540 | train/total_loss=0.5349, train/distill_loss=0.5349, train/cla_loss=3.3722, train/lr=0.0002
+2026-04-22 19:15:58 | INFO | cla | step=550 | train/total_loss=0.6536, train/distill_loss=0.6536, train/cla_loss=3.4410, train/lr=0.0002
+2026-04-22 19:16:25 | INFO | cla | step=560 | train/total_loss=1.0023, train/distill_loss=1.0023, train/cla_loss=3.3404, train/lr=0.0002
+2026-04-22 19:17:09 | INFO | cla | step=564 | eval/total_loss=0.6245, eval/distill_loss=0.6245, eval/cla_loss=3.3914
+2026-04-22 19:17:25 | INFO | cla | step=570 | train/total_loss=0.4959, train/distill_loss=0.4959, train/cla_loss=3.4013, train/lr=0.0002
+2026-04-22 19:17:52 | INFO | cla | step=580 | train/total_loss=0.6960, train/distill_loss=0.6960, train/cla_loss=3.3965, train/lr=0.0002
+2026-04-22 19:18:19 | INFO | cla | step=590 | train/total_loss=0.7539, train/distill_loss=0.7539, train/cla_loss=3.3683, train/lr=0.0002
+2026-04-22 19:18:45 | INFO | cla | step=600 | train/total_loss=0.6639, train/distill_loss=0.6639, train/cla_loss=3.3029, train/lr=0.0002
+2026-04-22 19:19:20 | INFO | cla | step=600 | eval/total_loss=0.5834, eval/distill_loss=0.5834, eval/cla_loss=3.3913
+2026-04-22 19:19:47 | INFO | cla | step=610 | train/total_loss=0.4591, train/distill_loss=0.4591, train/cla_loss=3.3868, train/lr=0.0002
+2026-04-22 19:20:13 | INFO | cla | step=620 | train/total_loss=0.2830, train/distill_loss=0.2830, train/cla_loss=3.3428, train/lr=0.0002
+2026-04-22 19:20:40 | INFO | cla | step=630 | train/total_loss=0.4347, train/distill_loss=0.4347, train/cla_loss=3.3787, train/lr=0.0002
+2026-04-22 19:21:07 | INFO | cla | step=640 | train/total_loss=0.3124, train/distill_loss=0.3124, train/cla_loss=3.4295, train/lr=0.0002
+2026-04-22 19:21:33 | INFO | cla | step=650 | train/total_loss=0.4865, train/distill_loss=0.4865, train/cla_loss=3.3901, train/lr=0.0002
+2026-04-22 19:22:00 | INFO | cla | step=660 | train/total_loss=0.9714, train/distill_loss=0.9714, train/cla_loss=3.3811, train/lr=0.0002
+2026-04-22 19:22:26 | INFO | cla | step=670 | train/total_loss=0.2120, train/distill_loss=0.2120, train/cla_loss=3.3560, train/lr=0.0002
+2026-04-22 19:22:53 | INFO | cla | step=680 | train/total_loss=0.3053, train/distill_loss=0.3053, train/cla_loss=3.3616, train/lr=0.0001
+2026-04-22 19:23:19 | INFO | cla | step=690 | train/total_loss=0.5458, train/distill_loss=0.5458, train/cla_loss=3.3564, train/lr=0.0001
+2026-04-22 19:23:46 | INFO | cla | step=700 | train/total_loss=0.7576, train/distill_loss=0.7576, train/cla_loss=3.4210, train/lr=0.0001
+2026-04-22 19:24:21 | INFO | cla | step=700 | eval/total_loss=0.5307, eval/distill_loss=0.5307, eval/cla_loss=3.3915
+2026-04-22 19:24:47 | INFO | cla | step=710 | train/total_loss=0.3154, train/distill_loss=0.3154, train/cla_loss=3.4206, train/lr=0.0001
+2026-04-22 19:25:14 | INFO | cla | step=720 | train/total_loss=0.2423, train/distill_loss=0.2423, train/cla_loss=3.3641, train/lr=0.0001
+2026-04-22 19:25:40 | INFO | cla | step=730 | train/total_loss=0.4615, train/distill_loss=0.4615, train/cla_loss=3.4148, train/lr=0.0001
+2026-04-22 19:26:06 | INFO | cla | step=740 | train/total_loss=0.4137, train/distill_loss=0.4137, train/cla_loss=3.4121, train/lr=0.0001
+2026-04-22 19:26:33 | INFO | cla | step=750 | train/total_loss=0.4063, train/distill_loss=0.4063, train/cla_loss=3.3734, train/lr=0.0001
+2026-04-22 19:27:12 | INFO | cla | step=752 | eval/total_loss=0.5162, eval/distill_loss=0.5162, eval/cla_loss=3.3856
+2026-04-22 19:27:33 | INFO | cla | step=760 | train/total_loss=0.2784, train/distill_loss=0.2784, train/cla_loss=3.4113, train/lr=0.0001
+2026-04-22 19:28:00 | INFO | cla | step=770 | train/total_loss=0.3635, train/distill_loss=0.3635, train/cla_loss=3.3196, train/lr=0.0001
+2026-04-22 19:28:26 | INFO | cla | step=780 | train/total_loss=0.2562, train/distill_loss=0.2562, train/cla_loss=3.3506, train/lr=0.0001
+2026-04-22 19:28:53 | INFO | cla | step=790 | train/total_loss=0.3475, train/distill_loss=0.3475, train/cla_loss=3.3268, train/lr=0.0001
+2026-04-22 19:29:19 | INFO | cla | step=800 | train/total_loss=0.6566, train/distill_loss=0.6566, train/cla_loss=3.3597, train/lr=0.0001
+2026-04-22 19:29:54 | INFO | cla | step=800 | eval/total_loss=0.5067, eval/distill_loss=0.5067, eval/cla_loss=3.3848
+2026-04-22 19:30:20 | INFO | cla | step=810 | train/total_loss=0.4347, train/distill_loss=0.4347, train/cla_loss=3.4239, train/lr=0.0001
+2026-04-22 19:30:47 | INFO | cla | step=820 | train/total_loss=0.3279, train/distill_loss=0.3279, train/cla_loss=3.4075, train/lr=0.0001
+2026-04-22 19:31:13 | INFO | cla | step=830 | train/total_loss=0.1341, train/distill_loss=0.1341, train/cla_loss=3.3161, train/lr=0.0001
+2026-04-22 19:31:40 | INFO | cla | step=840 | train/total_loss=0.1737, train/distill_loss=0.1737, train/cla_loss=3.3770, train/lr=0.0001
+2026-04-22 19:32:06 | INFO | cla | step=850 | train/total_loss=0.2045, train/distill_loss=0.2045, train/cla_loss=3.2611, train/lr=0.0001
+2026-04-22 19:32:33 | INFO | cla | step=860 | train/total_loss=0.1076, train/distill_loss=0.1076, train/cla_loss=3.3050, train/lr=0.0000
+2026-04-22 19:32:59 | INFO | cla | step=870 | train/total_loss=0.2737, train/distill_loss=0.2737, train/cla_loss=3.3319, train/lr=0.0000
+2026-04-22 19:33:26 | INFO | cla | step=880 | train/total_loss=0.2081, train/distill_loss=0.2081, train/cla_loss=3.4167, train/lr=0.0000
+2026-04-22 19:33:52 | INFO | cla | step=890 | train/total_loss=0.1299, train/distill_loss=0.1299, train/cla_loss=3.3676, train/lr=0.0000
+2026-04-22 19:34:19 | INFO | cla | step=900 | train/total_loss=0.4713, train/distill_loss=0.4713, train/cla_loss=3.4394, train/lr=0.0000
+2026-04-22 19:34:54 | INFO | cla | step=900 | eval/total_loss=0.4960, eval/distill_loss=0.4960, eval/cla_loss=3.3838
+2026-04-22 19:35:20 | INFO | cla | step=910 | train/total_loss=0.4404, train/distill_loss=0.4404, train/cla_loss=3.4098, train/lr=0.0000
+2026-04-22 19:35:47 | INFO | cla | step=920 | train/total_loss=0.1952, train/distill_loss=0.1952, train/cla_loss=3.4093, train/lr=0.0000
+2026-04-22 19:36:14 | INFO | cla | step=930 | train/total_loss=0.8086, train/distill_loss=0.8086, train/cla_loss=3.3667, train/lr=0.0000
+2026-04-22 19:36:39 | INFO | cla | step=940 | train/total_loss=0.5621, train/distill_loss=0.5621, train/cla_loss=3.3601, train/lr=0.0000
+2026-04-22 19:37:14 | INFO | cla | step=940 | eval/total_loss=0.4945, eval/distill_loss=0.4945, eval/cla_loss=3.3839
+2026-04-22 19:37:15 | INFO | cla | Training complete. Final metrics: {'train/total_loss': 0.5621249675750732, 'train/distill_loss': 0.5621249675750732, 'train/cla_loss': 3.360107183456421, 'train/lr': 0.0, 'eval/total_loss': 0.4945378469526768, 'eval/distill_loss': 0.4945378469526768, 'eval/cla_loss': 3.3839279651641845}

@@ -1,0 +1,29 @@
+=== Phase 3: Continuous-CoT baseline (lambda=0.0, k=5) ===
+Wed Apr 22 18:44:56 2026       
++-----------------------------------------------------------------------------------------+
+| NVIDIA-SMI 590.48.01              Driver Version: 590.48.01      CUDA Version: 13.1     |
++-----------------------------------------+------------------------+----------------------+
+| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |
+|                                         |                        |               MIG M. |
+|=========================================+========================+======================|
+|   0  NVIDIA A100-SXM4-80GB          On  |   00000000:81:00.0 Off |                    0 |
+| N/A   31C    P0             61W /  500W |       0MiB /  81920MiB |      0%      Default |
+|                                         |                        |             Disabled |
++-----------------------------------------+------------------------+----------------------+
+
++-----------------------------------------------------------------------------------------+
+| Processes:                                                                              |
+|  GPU   GI   CI              PID   Type   Process name                        GPU Memory |
+|        ID   ID                                                               Usage      |
+|=========================================================================================|
+|  No running processes found                                                             |
++-----------------------------------------------------------------------------------------+
+=== Phase 3 baseline complete ===
+total 14679
+drwxr-xr-x 2 hh89313 zxlab  197632 Apr 22 19:37 .
+drwxr-xr-x 6 hh89313 zxlab  197632 Apr 22 18:44 ..
+-rw-r--r-- 1 hh89313 zxlab 4720649 Apr 22 19:37 final_projection.pt
+-rw-r--r-- 1 hh89313 zxlab 4720624 Apr 22 19:00 step_000250.pt
+-rw-r--r-- 1 hh89313 zxlab 4720624 Apr 22 19:13 step_000500.pt
+-rw-r--r-- 1 hh89313 zxlab 4720624 Apr 22 19:26 step_000750.pt
